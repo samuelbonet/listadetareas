@@ -1,0 +1,167 @@
+/*fuente google*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/*general*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*cuerpo*/
+body {
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);/*degradado*/
+  
+  background: linear-gradient(to right, #EC6EAD, #3494E6);/*degradado*/
+  
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  font-size: 16px;
+  padding: 6px;
+  overflow: hidden;
+}
+
+/*lista*/
+.lista {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #ffffff;
+  width: 420px;
+  padding: 25px 30px;
+  border-radius: 7px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/*lista titulo*/
+.lista-title {
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1b1b1b;
+}
+
+/*boton de la lista*/
+.lista-form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*boton de la lista*/
+.lista-form input {
+  width: 70%;
+  outline: none;
+  border: 1px solid #bfbfbfbf;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0 10px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+/*boton de la lista*/
+.lista-btn {
+  height: 40px;
+  border: 0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-align: center;
+  background: #000000;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*boton de la lista al pasar*/
+.lista-btn:hover {
+  background: #0274bb;
+}
+
+/*lista divisior*/
+.lista-divider {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: #000000;
+  display: block;
+  margin: 10px 0px;
+  border-radius: 50px;
+}
+
+/*listar*/
+.lista-list {
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-height: 240px;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+/*listar cada  item*/
+.lista-item-list {
+  background: #000000;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+/*listar cada  item parrafo*/
+.lista-item-list p {
+  flex: 1;
+  margin-left: 10px;
+}
+
+/*listar cada  item en linea*/
+.lista-item-list span {
+  align-items: flex-end;
+}
+
+.lista-item-list .close {
+  color: #ee3131;
+}
+
+
+.lista-item-list.completed {
+  background: #8a8a8a50;
+}
+
+
+.lista-item-list.completed p {
+  color: #757575;
+  text-decoration: line-through;
+}
+
+
+/*pie de pagina*/
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+/*simbolo copyright*/
+.copyright {
+  color: white;
+  opacity: 0.3;
+  text-align: center;
+
+}
