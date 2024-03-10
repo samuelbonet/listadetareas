@@ -1,13 +1,13 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/samuelbonet/strangerLetters/assets/95564083/42576ccf-3b63-4fa4-acf9-9e416f87a8e9" width="200"></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/C1N1T6sd/portapapeles-1.png' border='0' alt='portapapeles-1'/></a><br />
   <br>
 Lista de tareas
   <br>
 </h1>
 
-[![cap2.png](https://i.postimg.cc/HLvZ1k3Y/cap2.png)](https://postimg.cc/f3XjxZ6p)
+<a href='https://postimages.org/' target='_blank'><div align='center'><img src='https://i.postimg.cc/5yrffcY9/Captura-de-pantalla-2024-03-10-101436.png' border='0' alt='Captura-de-pantalla-2024-03-10-101436'/></div></a>
 
 ## Descripción
 
